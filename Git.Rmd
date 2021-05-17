@@ -1,0 +1,25 @@
+---
+title: "VersionControl"
+author: "IsmaelBastos"
+date: "17/05/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Link github and Git
+
+To link github with RStudio jut go to Tools>Global Options> Git/SVN 
+
+Then, choose a passphrase and generate a RSA Key
+Copy the RSA key and go to the github profile settings
+
+ ![](github_details.png)
+ 
+ Click on create SSH Key> Add new 
+ 
+ Paste the RSA code there and click on ADD SSH Key
+ 
+ Github and RStudio are now linked
